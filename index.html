@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Hub"
+---
+
+# Bienvenue sur mon site
+
+Voici la liste de mes dernières publications mises à jour automatiquement :
+
+{% for post in site.posts %}
+- **{{ post.date | date: "%d/%m/%Y" }}** — [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}

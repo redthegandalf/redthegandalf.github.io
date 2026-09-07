@@ -1,3 +1,5 @@
 theme: minima
 title: RedTheGandalf's blog
 description: I'll share my reasearch here :)
+plugins:
+  - jekyll-feed

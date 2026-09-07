@@ -3,9 +3,9 @@ layout: default
 title: "Hub"
 ---
 
-# Bienvenue sur mon site
+# Blogposts
 
-Voici la liste de mes dernières publications mises à jour automatiquement :
+Here are my latest blogposts, hope you will enjoy them :)
 
 {% for post in site.posts %}
 - **{{ post.date | date: "%d/%m/%Y" }}** — [{{ post.title }}]({{ post.url | relative_url }})
